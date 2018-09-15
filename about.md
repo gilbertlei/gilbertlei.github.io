@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+My name is Gilbert Lei and currently I am a graduate school at UBC's Master of Data Science program. I like data analysis. Particularly I use data analysis to help solve real business challenges in marketing field and assist in business decision making.  
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Quantitative trading.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[junxiong.lei@gmail.com](mailto:junxiong.lei@gmail.com)
