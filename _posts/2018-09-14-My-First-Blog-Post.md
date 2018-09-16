@@ -14,3 +14,15 @@ The Grand Circle is actually not a single place. It is a beautiful, vast region 
 |Antelope Canyon|
 |---|
 |![Antelope_Canyon](../images/Antelope_Canyon.JPG)|
+
+|Delicate Arch|
+|---|
+|![Delicate_Arch](../images/Delicate_Arch.JPG)|
+
+|Bryce Canyon|
+|---|
+|![Bryce_Canyon](../images/Bryce_Canyon.JPG)|
+
+|Goose Neck|
+|---|
+|![Goose_Neck](../images/Goose_Neck.JPG)|
