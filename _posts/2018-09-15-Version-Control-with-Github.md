@@ -3,9 +3,6 @@ layout: post
 title: Version Control with GitHub
 ---
 
-```
-Written on Sep 15th, 2018
-```
 Most of us might have run into this kind of situation before: We worked on a file for quite a long time, then one day we thought the changes we recently made to the file was meaningless, so we wanted to go back to where we were one week ago. However, we might don’t have a copy of the file created one week ago, or we have saved many copies, but we could not find the copy we wanted or could not figure out which copy was the one we really wanted.
 
 To avoid situations like this, we very often spend a lot of time on managing files on daily basis. Research ([link](https://www.cottrillresearch.com/various-survey-statistics-workers-spend-too-much-time-searching-for-information/)) shows that many people, especially engineers, spend too much time on searching for the right document and information. The main reason for this is that we they don’t have a good system to manage files.  
