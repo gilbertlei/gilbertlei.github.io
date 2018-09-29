@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Investment Plan with Data Science?
+title: Investment Plan with Data Science
 ---
 
 I recently became quite interested in investment, particularly stock trading. As we all know, the US stock market has been soaring in the past nine years. Consequently, many people are lured to investing in the stock market. A question comes into my mind is whether now is a good time to buy US stocks.  
@@ -9,7 +9,8 @@ Let's firstly examine the current status of the market. To do that, I will use a
 
 Below is a S&P 500 Weekly Chart, 1929-2018. According to this chart, the S&P 500 index reached a low of 666.79 on March 2nd, 2009 and it climbed to 2913.98 on September 24th, 2018. It means in the past 9.5 years, the S&P 500 has grown by 337%! Obviously, the US stock market went very well in this period. Stocks kept growing up and up.  
 
-!["S&P500-Weekly-Chart_1929-2018"](../images/SP500-Weekly-Chart-2008-2018.JPG)
+!["S&P500-Weekly-Chart_1929-2018"](../images/SP500-Weekly-Chart-2008-2018.JPG)  
+(source: [Yahoo! Finance](https://finance.yahoo.com/chart/%5EGSPC#eyJpbnRlcnZhbCI6IndlZWsiLCJwZXJpb2RpY2l0eSI6MSwiY2FuZGxlV2lkdGgiOjIuMTE5MDQ3NjE5MDQ3NjE5LCJ2b2x1bWVVbmRlcmxheSI6dHJ1ZSwiYWRqIjp0cnVlLCJjcm9zc2hhaXIiOnRydWUsImNoYXJ0VHlwZSI6ImNhbmRsZSIsImV4dGVuZGVkIjpmYWxzZSwibWFya2V0U2Vzc2lvbnMiOnt9LCJhZ2dyZWdhdGlvblR5cGUiOiJvaGxjIiwiY2hhcnRTY2FsZSI6ImxpbmVhciIsInBhbmVscyI6eyJjaGFydCI6eyJwZXJjZW50IjoxLCJkaXNwbGF5IjoiXkdTUEMiLCJjaGFydE5hbWUiOiJjaGFydCIsInRvcCI6MH19LCJzZXRTcGFuIjpudWxsLCJsaW5lV2lkdGgiOjIsInN0cmlwZWRCYWNrZ3JvdWQiOnRydWUsImV2ZW50cyI6dHJ1ZSwiY29sb3IiOiIjMDA4MWYyIiwic3ltYm9scyI6W3sic3ltYm9sIjoiXkdTUEMiLCJzeW1ib2xPYmplY3QiOnsic3ltYm9sIjoiXkdTUEMifSwicGVyaW9kaWNpdHkiOjEsImludGVydmFsIjoid2VlayIsInNldFNwYW4iOm51bGx9XSwiZXZlbnRNYXAiOnsiY29ycG9yYXRlIjp7ImRpdnMiOnRydWUsInNwbGl0cyI6dHJ1ZX0sInRlY2huaWNhbCI6e30sInNpZ0RldiI6e319LCJjdXN0b21SYW5nZSI6bnVsbCwicmFuZ2UiOm51bGwsInN0dWRpZXMiOnsidm9sIHVuZHIiOnsidHlwZSI6InZvbCB1bmRyIiwiaW5wdXRzIjp7ImlkIjoidm9sIHVuZHIiLCJkaXNwbGF5Ijoidm9sIHVuZHIifSwib3V0cHV0cyI6eyJVcCBWb2x1bWUiOiIjMDBiMDYxIiwiRG93biBWb2x1bWUiOiIjRkYzMzNBIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImhlaWdodFBlcmNlbnRhZ2UiOjAuMjUsIndpZHRoRmFjdG9yIjowLjQ1LCJjaGFydE5hbWUiOiJjaGFydCJ9fX19))   
 
 But, at this moment, on September 29th, 2018, should I buy US stocks? The answer is not that obvious.  
 
@@ -60,4 +61,4 @@ From above analysis, I get P_up = 20%, P_down = 80%, Gain_up = 0%, Loss_down = -
 
 It means if I invest in the US stock market now, I may end up losing 28% in one year. Obviously, it is not a good idea to buy US stocks at this moment.  
 
-The model I used has some downsides though. It doesn't take into consideration other important factors, such as the economy growth, interest rate changes, geopolitical dynamics, etc. However, it still provides reasonable method to help me, a risk-averse person, to make investment decisions. 
+The model I used has some downsides though. It doesn't take into consideration other important factors, such as the economy growth, interest rate changes, geopolitical dynamics, etc. However, it still provides reasonable method to help me, a risk-averse person, to make investment decisions.
