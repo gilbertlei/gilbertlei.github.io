@@ -1,4 +1,7 @@
-# Is Now A Good Time to Buy US Stocks?
+---
+layout: post
+title: Investment Plan with Data Science?
+---
 
 I recently have become quite interested in investment. While there are many types of investments available in the market, such as buying stocks, buying gold, investing in real estates, trading futures, trading foreign exchanges, etc., the investment I am particularly interested in is stock trading. As you know, the US stock market has been soaring in the past nine years, a question that comes into my mind is whether it is a good idea to buy US stocks now, or not.  
 
@@ -14,14 +17,14 @@ Before I go into detailed analysis, I want to clarify my scope of analysis. As w
 
 The model I will use in this analysis is the calculation of expected value based on probability theory. The equation goes like this:  
 
-Expected return = P_up \* Gain_up + P_down \* Loss_down  
+- Expected return = $P_{up} * Gain_{up} + P_{down} * Loss_{down}$  
 
 It sounds quite technical but is actually quite simple.  
--	P_up stands for the probability S&P 500 will keep going up,
--	P_down stands for the probability S&P 500 will go down. In reality, S&P 500 can go up, go down, or go side way. In my analysis, to make it simple, I suppose that S&P 500 will either go up or go down, never go side way.
--	Gain_up stands for the possible gain if S&P 500 really goes up.
--	Loss_down stands for the possible loss if S&P 500 goes down.
-If the above equation gives a positive “expected return” value, it means it is a good idea to buy US stocks now. If the “expected return” value is negative, it means if I buy US stocks now, I may end up losing money.  
+-	$P_{up}$ stands for the probability S&P 500 will keep going up.  
+-	$P_{down}$ stands for the probability S&P 500 will go down. In reality, S&P 500 can go up, go down, or go side way. In my analysis, to make it simple, I suppose that S&P 500 will either go up or go down, never go side way.  
+-	$Gain_{up}$ stands for the possible gain if S&P 500 really goes up.  
+-	$Loss_{down} stands for the possible loss if S&P 500 goes down.  
+If the above equation gives a positive expected return, it means it is a good idea to buy US stocks now. If the expected return value is negative, it means if I buy US stocks now, I may end up losing money.  
 
 So to get the answer, I will find out the value of P_up, P_down, Gain_up and Loss_down.
 
@@ -44,7 +47,7 @@ If the stock market goes up, how much it will climb? Below chart shows the stati
 
 ### How much I will loss if S&P 500 goes down?
 On the other side, if the current market has reached its peak and will turn into a bear market, how deep will it decline? Below chart shows the statistics of the bear markets after previous bull markets. It shows the average decline is -35.43%. I will use this number in my calculation:  
-- P_down = -35.43%
+- Loss_down = -35.43%
 
 !["S&P500-Historical-Bear-Markets"](../images/SP500-Historical-Bear-Markets.JPG)  
 (Source: https://www.gold-eagle.com/article/history-us-bear-bull-markets-1929)
