@@ -54,12 +54,13 @@ Here is a list of commonly used built-in functions:
 
 ### Operators
 Python has below arithmetic operators:  
-- \+  plus  
-- \-  minus  
-- \*  multiply  
-- /   divide  
-- \** exponentiation   
-- //  integer division   
+- \+  # plus  
+- \-  # minus  
+- \*  # multiply  
+- /   # divide  
+- \** # 幂/次方，exponentiation   
+- //  # 取整，integer division   
+- %   # 取余
 
 Python has below comparison operators:  
 - x == y  
