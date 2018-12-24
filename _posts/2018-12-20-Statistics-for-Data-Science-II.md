@@ -102,12 +102,9 @@ If above conditions are met, the sampling distribution of the sample statistic w
 ![](../images/stats/CLT-difference between-two-proportions.JPG)
 
 **With CLT, we can infer population parameters based on the statistic of a single sample.**  
-- use Z test for proportions estimate
-- use T test for means estimate
-- confidence interval calculated based asymptotic theory is wider than that generated from simulation (bootstrapping).
-
 For example, below is the equation for calculating of confidence interval based on Z test.   
 ![](../images/stats/CLT-confidence-interval.JPG)
+note: confidence interval calculated based asymptotic theory is usually wider than that generated from simulation (bootstrapping).  
 
 **How to calculate point estimate?**  
 Calculate directly using sample data. For example, if the hypothesis test is about population mean, then point estimate is the mean of the sample.  
@@ -190,7 +187,7 @@ df %>%
 
 
 ## Hypothesis Test based on asymptotic theory (Central Limit Theorem, CLT)
-**5 steps to a hypothesis test**
+**3 steps to a hypothesis test**
 1. calculate *test statistic* based on the model of null hypothesis. For hypothesis tests we are encoding the sample variability in the test statistic
 2. calculate *p-value* based on the corresponding test model (Z-test, t-test, etc.)
 3. review *p-value* and decide to reject the null hypothesis or not
@@ -210,12 +207,12 @@ Chi-square tests     Chi-square statistic
 **How to calculate test statistic (𝛿*)?**    
 - single mean (t-test):   
 ![](../images/stats/t-statistic-single-mean.JPG)  
-note: the degree of freedom of this t-statistic is df = n - 1.
+note: the degree of freedom of this test is df = n - 1.
 
 - difference between two means (t-test):  
 ![](../images/stats/t-statistic-two-means.JPG)  
 note:
-  - the degree of freedom of this t-statistic is df = n_A + n_B - 2.
+  - the degree of freedom of this test is df = n_A + n_B - 2.
   - x_bar is sample mean of each group.  
   - S is the common variance of two samples. It can be calculated by:   
 ![](../images/stats/common-variance-of-two-samples.JPG)  
