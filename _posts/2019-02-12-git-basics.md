@@ -39,10 +39,18 @@ If others made changes and sent a pull request:
 `git add FILE_NAME`   
 `git commit -a -m "MESSAGE"`   
 `git push -u origin BRANCH_NAME`   
-* On github project repo, create a pull request, so that your collaborators can review the changes you have made.  
-* If you feel your branch is mature, merge it with the master branch.  
+* Then, on github project repo, create a pull request, so that your collaborators can review the changes you have made.  
+* After your collaborators reviewed and merged your pull request on github, you need to update your local master:  
+`git checkout master`  
+`git pull`  
+* If you don't need your collaborators to review and merge on github, you can, after commit your changes, merge your branch locally:
+`git add FILE_NAME`   
+`git commit -a -m "MESSAGE"`  
 `git checkout master`  
 `git merge BRANCH_NAME`   
+`git add .`   
+`git commit -a -m "MESSAGE"`  
+`git push`  
 
 Other useful branching command:  
 `git log --oneline --decorate`  # check where the branch pointers are pointing   
