@@ -51,6 +51,8 @@ If others made changes and sent a pull request:
 `git add .`   
 `git commit -a -m "MESSAGE"`   
 `git push`   
+* For a branch that has been pushed and merged into master, you can delete it:   
+`git branch -d BRANCH_NAME`
 
 Other useful branching command:  
 `git log --oneline --decorate`  # check where the branch pointers are pointing   
