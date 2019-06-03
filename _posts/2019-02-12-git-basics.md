@@ -51,6 +51,8 @@ If others made changes and sent a pull request:
 `git add .`   
 `git commit -a -m "MESSAGE"`   
 `git push`   
+* If your collaborators make some changes to the master branch and you want to incorporate all the changes to your local branch, you should use below command:   
+`git pull origin master`  
 * For a branch that has been pushed and merged into master, you can delete it:   
 `git branch -d BRANCH_NAME`
 
