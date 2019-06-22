@@ -53,6 +53,8 @@ If others made changes and sent a pull request:
 `git push`   
 * If your collaborators make some changes to the master branch and you want to incorporate all the changes to your local branch, you should use below command:   
 `git pull origin master`  
+* If you made some change on a local branch and decided you want to discard the change:   
+`git checkout -- filename`
 * For a branch that has been pushed and merged into master, you can delete it:   
 `git branch -d BRANCH_NAME`
 
